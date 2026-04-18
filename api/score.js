@@ -34,7 +34,7 @@ Loan requested: ${loanAmount || 0}
 {"score":300-850,"grade":"AAA|AA|A|BBB|BB|B|CCC","verdict":"Approved|Conditionally Approved|Under Review|Rejected","cashflow_score":0-100,"compliance_score":0-100,"reputation_score":0-100,"stability_score":0-100,"strengths":["s1","s2","s3"],"risks":["r1","r2"],"max_recommended_loan":0,"interest_rate_band":"x-y%","summary":"2-3 sentences"}`;
 
   const body = JSON.stringify({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-opus-4-5",
     max_tokens: 1000,
     messages: [{ role: "user", content: prompt }]
   });
