@@ -1,0 +1,11 @@
+{
+  "name": "creditiq",
+  "version": "1.0.0",
+  "description": "AI-powered SME credit scoring platform",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
